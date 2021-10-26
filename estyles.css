@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+    font-family: 'Open Sans', sans-serif;
+}
+#cabesa{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+header{
+    background: #FF1744;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    border-bottom: 3px solid black;
+}
+nav{
+    background: whitesmoke;
+    height: 50px;
+    border-bottom: solid black;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.arregladorbisual{
+    clear: both;
+}
+#contenido{
+    float: left;
+    width: calc(100% - 60px);
+    min-height: 1000px;
+    background: lightseagreen;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 10px;    
+}
+#contenido2{
+    float: left;
+    width: calc(80% - 70px);
+    min-height: 1000px;
+    background: lightseagreen;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 20px;    
+}
+.articulo{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.articulo:first-child{
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+.articulo h2{
+    font-size: 25px;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 1000px;
+    background: lightgray;
+    padding: 10px;
+    padding-top: 20px;
+}
+input:valid {
+    background-color: powderblue;
+}
+footer{
+    background: darkslategray;
+    font-size: 12px;
+    color: whitesmoke;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
